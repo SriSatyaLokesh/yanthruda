@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Audio / Training cache
+*.wav
+*.mp3
+*.flac
+*.pt
+*.safetensors
+*.onnx
+checkpoints/
+audio_cache/

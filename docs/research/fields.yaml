@@ -1,0 +1,58 @@
+fields:
+  basic_info:
+    - name: "name"
+      description: "Official project, model, dataset, or platform name."
+      detail_level: "brief"
+    - name: "pipeline_stage"
+      description: "Primary pipeline stage addressed (ASR, NMT/Translation, Transliteration/Tenglish, LLM Personalization, Voice Cloning, End-to-End Orchestration)."
+      detail_level: "brief"
+    - name: "license_and_availability"
+      description: "Licensing model, open-source weight availability, or API pricing and access conditions."
+      detail_level: "brief"
+    - name: "developer_or_organization"
+      description: "Developing research lab, institution, company, or open-source community."
+      detail_level: "brief"
+
+  technical_features:
+    - name: "telugu_script_and_tenglish_support"
+      description: "Fidelity and accuracy of Telugu script generation, Romanized transliteration (Tenglish), and code-mixing support."
+      detail_level: "detailed"
+    - name: "regional_dialect_and_localization_handling"
+      description: "Capability to handle regional vocabulary and slang (Telangana, Coastal Andhra, Rayalaseema) vs. standardized formal Telugu."
+      detail_level: "detailed"
+    - name: "personalization_and_user_adaptation"
+      description: "Methods and feasibility to adapt to user-provided recordings, idiosyncratic vocabulary, sentence habits, and tone."
+      detail_level: "detailed"
+    - name: "voice_cloning_and_acoustic_fidelity"
+      description: "Voice cloning architecture, required reference audio length, acoustic similarity, and native Indic accent preservation."
+      detail_level: "detailed"
+    - name: "code_switching_stability"
+      description: "Acoustic and textual stability when transitioning mid-sentence between Telugu words and English loanwords."
+      detail_level: "moderate"
+    - name: "phonetic_and_orthographic_normalization"
+      description: "Handling of phonetic edge cases including retroflex consonants, terminal vowel elongations, and informal social media spelling."
+      detail_level: "moderate"
+
+  performance_metrics:
+    - name: "inference_latency_and_streaming"
+      description: "Real-Time Factor (RTF), Time-to-First-Audio (TTFA), and streaming suitability for real-time conversational agents vs. batch processing."
+      detail_level: "moderate"
+    - name: "acoustic_naturalness_and_expressiveness"
+      description: "Mean Opinion Score (MOS), prosodic inflection, conversational cadence, and emotional tone control."
+      detail_level: "moderate"
+    - name: "transcription_and_translation_accuracy"
+      description: "Reported BLEU, chrF++, or WER/CER metrics on colloquial and code-mixed Indic benchmarks."
+      detail_level: "moderate"
+
+  market_positioning:
+    - name: "end_to_end_vs_modular_role"
+      description: "Whether the solution acts as a complete standalone system or serves as a modular component in a composite architecture."
+      detail_level: "detailed"
+    - name: "strengths_and_limitations"
+      description: "Key technical advantages and current limitations for hyper-personalized Telugu/Tenglish speech generation."
+      detail_level: "detailed"
+    - name: "recommended_implementation_recipe"
+      description: "Concrete integration blueprint detailing how to incorporate this item into the user's custom end-to-end voice and script personalization pipeline."
+      detail_level: "detailed"
+
+uncertain: []

@@ -1,0 +1,37 @@
+topic: Personalized and localized Telugu (Tenglish) and Hindi translation, dialect adaptation, and voice cloning pipeline
+topic_slug: telugu-personalized-localization-tenglish
+
+items:
+  - name: "AI4Bharat IndicTrans2 & IndicXlit"
+    description: "Benchmark open-source translation and transliteration engine specifically optimized for Indic scripts and Romanized transliteration (Tenglish/Hinglish)."
+  - name: "Sarvam AI Suite (Sarvam-1/2, Bulbul TTS, Mayura)"
+    description: "India-focused foundational LLMs and speech synthesis suite trained on rich Indic audio and linguistic nuances."
+  - name: "AI4Bharat IndicF5 & Indic Parler-TTS"
+    description: "Open-source zero-shot voice cloning across 11 Indian languages and description-driven prosody and style controllability."
+  - name: "Smallest AI (Waves Platform & Lightning TTS)"
+    description: "Ultra-low-latency speech synthesis and instant voice cloning platform with native mid-sentence Indic code-switching (Tenglish/Hinglish) support."
+  - name: "AI4Bharat Chitralekha"
+    description: "Turnkey open-source video transcreation and automated dubbing pipeline orchestrating ASR, NMT, and TTS with alignment."
+  - name: "Open-Source Zero-Shot Voice Cloning (XTTS-v2, F5-TTS, CosyVoice)"
+    description: "Self-hostable state-of-the-art voice cloning architectures for reference audio enrollment and acoustic adaptation."
+  - name: "Commercial Voice Cloning & Localization (ElevenLabs, Camb.ai, Dubverse)"
+    description: "Production-grade cross-lingual voice replication and localization platforms supporting Indian accents and multilingual cloning."
+  - name: "Meta SeamlessM4T v2 & SeamlessExpressive"
+    description: "Multimodal speech translation foundation models designed to preserve vocal identity, emotional prosody, and expressive cadence."
+  - name: "Bhashini (National Language Translation Mission)"
+    description: "Government of India national language translation mission ecosystem offering open Indic speech, translation, and ASR APIs."
+  - name: "Swecha Telugu AI & Luel Conversational Dialect Corpora"
+    description: "Telugu-specific open datasets and conversational speech corpora capturing regional dialects (Telangana, Coastal Andhra, Rayalaseema)."
+  - name: "Telugu LLM Labs (Navarasa 2.0 / Gemma-Telugu)"
+    description: "Open instruction-tuned Indic foundational LLMs with custom tokenizers for colloquial Telugu slang, idioms, and Tenglish."
+  - name: "Persona-Conditioned LLM Fine-Tuning & In-Context Adaptation"
+    description: "Techniques (LoRA, few-shot prompting, DSPy) to train or condition LLMs to mimic user-specific vocabulary, phrasing, and regional slang."
+  - name: "IndicWhisper & Lexicon Extraction Framework"
+    description: "Speech-to-text pipeline to transcribe user voice recordings and extract personal vocabulary frequency, catchphrases, and sentence structures."
+  - name: "AI4Bharat IndicMFA & G2G Phonetic Alignment"
+    description: "Forced alignment and pronunciation normalization architecture resolving Indic phonetic edge cases, terminal vowel elongations, and schwa deletion."
+
+execution:
+  batch_size: 3
+  items_per_agent: 1
+  output_dir: ./results
