@@ -38,7 +38,7 @@ flowchart TD
         B --> C["AI4Bharat IndicWhisper (ASR)"]
         C --> D["Timestamped Transcripts + Clean Audio Chunks"]
         D --> E["TF-ICF Lexical Profiler & Cadence Analyzer"]
-        E --> F[("Dynamic Persona Profile\n(Catchphrases, Dialect Tokens, F0/WPM)")]
+        E --> F[("Dynamic Persona Profile<br/>(Catchphrases, Dialect Tokens, F0/WPM)")]
     end
 
     subgraph S2 ["2. Cognitive Persona Scripting"]
@@ -59,7 +59,7 @@ flowchart TD
         D -.-> |10-30s Reference Audio| N["Speaker Embedding Cache"]
         M --> O{"Synthesis Engine"}
         N --> O
-        O -->|Realtime Streaming (<100ms)| P["Smallest AI Lightning TTS / Sarvam Bulbul"]
+        O -->|Realtime Streaming sub-100ms| P["Smallest AI Lightning TTS / Sarvam Bulbul"]
         O -->|Self-Hosted Sovereign GPU| Q["AI4Bharat IndicF5 / CosyVoice 2"]
         P --> R["Synthesized Audio Stream"]
         Q --> R

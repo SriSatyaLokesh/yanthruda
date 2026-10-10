@@ -17,21 +17,21 @@ flowchart TD
         B --> C["Indic ASR (AI4Bharat IndicWhisper)"]
         C --> D["Timestamped Transcripts + Reference Audio Slices"]
         D --> E["TF-ICF Lexical Profiler & Dialect Classifier"]
-        E --> F[("User Persona Profile Store\n(Catchphrases, Cadence, Tone, LoRA Data)")]
+        E --> F[("User Persona Profile Store<br/>(Catchphrases, Cadence, Tone, LoRA Data)")]
     end
 
     subgraph CognitiveBrain ["2. Cognitive Persona Scripting"]
         G["Source English Prompt / Script Outline"] --> H["Telugu LLM Labs (Navarasa 2.0 / Gemma-Telugu)"]
         F -.-> |DSPy Dynamic Few-Shot Prompting| H
         F -.-> |Periodic Unsloth LoRA Adapter| H
-        H --> I["Colloquial Dialect Script\n(Telugu & Code-Mixed Tenglish)"]
+        H --> I["Colloquial Dialect Script<br/>(Telugu & Code-Mixed Tenglish)"]
     end
 
     subgraph NormalizationBridge ["3. Orthographic & Phonetic Bridge"]
         I --> J["Token Classification (Telugu vs English Loanwords)"]
         J --> K["AI4Bharat IndicXlit Transliteration"]
         K --> L["AI4Bharat IndicMFA (Grapheme-to-Grapheme)"]
-        L --> M["Phonetically Normalized Script\n(Canonical Telugu Unicode + Latin Loanwords)"]
+        L --> M["Phonetically Normalized Script<br/>(Canonical Telugu Unicode + Latin Loanwords)"]
     end
 
     subgraph VoiceSynthesis ["4. Acoustic Synthesis & Voice Cloning"]
