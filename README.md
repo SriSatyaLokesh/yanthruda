@@ -2,7 +2,7 @@
 
 > **Hyper-Personalized Telugu/Tenglish AI Persona, Regional Dialect Adaptation & Voice Cloning Pipeline**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
 [![Focus: Indic NLP & Voice](https://img.shields.io/badge/Focus-Telugu%20%7C%20Tenglish%20%7C%20Hindi-orange.svg)](docs/RESEARCH_REPORT.md)
 [![Status: Research & Blueprint](https://img.shields.io/badge/Status-Research%20%26%20Blueprint-purple.svg)](docs/MISSION.md)
@@ -157,4 +157,4 @@ Check out [**`docs/MISSION.md`**](docs/MISSION.md) for collaboration details and
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [Apache License 2.0](LICENSE).
